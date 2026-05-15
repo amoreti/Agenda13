@@ -1,0 +1,57 @@
+/* Container principal com Flexbox */
+.container {
+    display: flex; /* As seções ficam lado a lado*/
+    justify-content: space-around;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Cada seção */
+.secao {
+    background-color: black;
+    width: 30%; /* cada seção ocupa 30% da tela */
+    padding: 15px; /* espaço interno */
+    border-radius: 10px; /* cantos arredondados */
+    text-align: left;
+    border: 2px solid deeppink;
+    box-shadow: 0 0 10px pink;
+}
+
+/* Título das seções (Filmes e Séries, Musicas e Podcasts, Games e Tecnologias)*/
+.titulo-secao {
+    background-color: deeppink;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; /* cantos arredondados */
+    margin-bottom: 15px;
+    text-align: center;
+    }
+
+/* Imagens */
+.imagem {
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid white;
+    box-shadow: 0 0 8px pink;
+}
+
+/* Corrigir seletor (IMPORTANTE) */
+.secao img,
+.secao h3,
+.secao p {
+    margin-bottom: 20px;
+}
+
+/* Títulos dos filmes */
+.titulo-filme {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+/* ESPAÇAMENTO ENTRE ITENS */
+.secao img,
+.secao p {
+    margin-bottom: 10px;
+}
