@@ -33,14 +33,3 @@ O design foi pensado com um tema moderno e contrastante:
 - ✅ Flexbox  
 - ✅ CSS Reset  
 
----
-
-## 🛠️ Técnicas Aplicadas
-
-Este projeto utiliza diferentes formas de aplicação de CSS:
-
-### 🎯 CSS Inline
-Aplicado diretamente em um elemento HTML:
-```html
-<h1 style="letter-spacing: 2px;">
-``
